@@ -21,7 +21,7 @@ You need Blank USB key 8 gig for Install macOS
 You need Install macOS High Sierra.app (From Mac App Store)
  
 ## Credit: 
-Apple, Clover Team, all HMF tester :arcade33, rouletabosse, Ultimalvin, emax31, chris1111.
+Apple, Clover Team, all HMF tester :arcade33, rouletabosse, Bumbay, RayDu, emax31, fotograf59, platinumsteel, gchen,  remziye,  jiemax, McGee, Loloflat6, Tibbie, chris1111.
 
 The installation time is about 20 minutes depending on the speed of your disk and your system.
 
