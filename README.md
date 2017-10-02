@@ -4,7 +4,7 @@
 ## what is it used for: 
 This app is for Installing macOS (Working and Testing OS X 10.9 to macOS High Sierra 10.13.
 
-Containing also Clover EFI Bootloader revision v2.4k r4210 mode UEFI, ESP, Legacy 
+Containing also Clover EFI Bootloader revision v2.4k r4233 mode UEFI, ESP, Legacy 
 
 PS: (Working for UEFI and Legacy configurations)
 Working Inside macOS Sierra and macOS High Sierra.
