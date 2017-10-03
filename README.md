@@ -10,7 +10,7 @@ PS: (Working for UEFI and Legacy configurations)
 Working Inside macOS Sierra and macOS High Sierra.
 ## ** Important **
 This does not work on a Core Storage Volumes
-You can not use the Post Installer Clover Package on an APFS volume! 
+You can now using the Post Installer Clover Package on an APFS volume! 
 
 For real Mac users, you have not used the Clover Bootloader, as simple as that.
 
