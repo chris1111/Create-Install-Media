@@ -49,6 +49,8 @@ Clover ESP: thats working for  EFI and Legacy config
 
 ## What you need to do now:
 
-1. Download the Latest Release and Follow every steps in the Video
+1. [Download V2 ➤ Create-Install-Media.dmg.zip](https://github.com/chris1111/Create-Install-Media/releases/tag/V2)
+
+Follow every steps in the Video
 
 [![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/videos10.jpg)](https://www.youtube.com/watch?v=356EejXWwIU)
