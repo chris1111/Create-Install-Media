@@ -6,7 +6,7 @@
 Containing also Clover EFI Bootloader revision v2.4k r4525
 
 PS: (Working for UEFI and Legacy configurations)
-Working Inside OS X Mavericks to macOS High Sierra.
+Working Inside OS X Mavericks to macOS Mojave.
 
 
 ### Real Mac users, you have not used the Clover Bootloader, as simple as that.
