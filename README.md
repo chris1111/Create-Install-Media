@@ -1,6 +1,6 @@
 ## Create Install Media
 (## Support macOS Mojave ##)
-![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/appico12.png)
+![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/mojave11.png)
  
 ## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Mojave 10.14.
 
@@ -48,4 +48,4 @@ Clover ESP: thats working for  EFI and Legacy config
 
 Follow every steps in the Video
 
-[![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/videos10.jpg)](https://www.youtube.com/watch?v=356EejXWwIU)
+[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/mojave12.png)](https://www.youtube.com/watch?v=H-23pwojDGY&t=50s)
