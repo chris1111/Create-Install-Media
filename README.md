@@ -26,7 +26,7 @@ Working Inside OS X Mavericks to macOS Mojave.
 
 
 Move Create Install Media to Desktop
-![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/captur25.jpg)
+![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captur10.png)
 
 Follow every steps in the Video
                ⬇︎
