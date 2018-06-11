@@ -18,8 +18,7 @@ Working Inside OS X Mavericks to macOS Mojave.
    - Blank USB key 8 gig for Install macOS
    - Install macOS High Sierra.app (From Mac App Store)
  
-* Credit:
- 
+* Credit: 
    - Apple 
    - Clover Team 
    - Tester :arcade33, rouletabosse, Bumbay, RayDu, emax31, fotograf59, platinumsteel, gchen,  remziye,  jiemax, McGee, Loloflat6, Tibbie, chris1111.
