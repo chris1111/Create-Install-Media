@@ -1,9 +1,9 @@
 ## Create Install Media
 ![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/appico12.png)
  
-## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS High Sierra 10.13.
+## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Mojave 10.14.
 
-Containing also Clover EFI Bootloader revision v2.4k r4465
+Containing also Clover EFI Bootloader revision v2.4k r4525
 
 PS: (Working for UEFI and Legacy configurations)
 Working Inside OS X Mavericks to macOS High Sierra.
