@@ -28,9 +28,9 @@ Working Inside OS X Mavericks to macOS Mojave.
 Move Create Install Media to Desktop
 ![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/captur25.jpg)
 
-### Follow every steps!
+Follow every steps in the Video
 
-![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/start10.png)
+[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/mojave12.png)](https://www.youtube.com/watch?v=H-23pwojDGY&t=50s)
 
 
 ## Clover Install Choice:
@@ -46,6 +46,3 @@ Clover ESP: thats working for  EFI and Legacy config
 [Download V7 ➤ Create-Install-Media.dmg.zip](https://github.com/chris1111/Create-Install-Media/releases/tag/V7)
 
 
-Follow every steps in the Video
-
-[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/mojave12.png)](https://www.youtube.com/watch?v=H-23pwojDGY&t=50s)
