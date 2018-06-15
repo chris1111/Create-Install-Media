@@ -43,6 +43,6 @@ Clover ESP: thats working for  EFI and Legacy config
 ![Modular Image Creation](https://i11.servimg.com/u/f11/18/50/18/69/211.png)
 
 
-[Download V7 ➤ Create-Install-Media.dmg.zip](https://github.com/chris1111/Create-Install-Media/releases/tag/V7)
+[Download V8 ➤ Create-Install-Media.dmg.zip](https://github.com/chris1111/Create-Install-Media/releases/tag/V8)
 
 
