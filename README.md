@@ -4,7 +4,7 @@
  
 ## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Mojave 10.14.
 
-Containing also Clover EFI Bootloader revision v2.4k r4525
+Containing also Clover EFI Bootloader revision v2.4k r4543
 
 PS: (Working for UEFI and Legacy configurations)
 Working Inside OS X Mavericks to macOS Mojave.
