@@ -21,7 +21,7 @@ Working Inside OS X Mavericks to macOS Mojave.
 * Credit: 
    - Apple 
    - Clover Team 
-   - Tester :arcade33, rouletabosse, Bumbay, RayDu, emax31, fotograf59, platinumsteel, gchen,  remziye,  jiemax, McGee, Loloflat6, Tibbie, chris1111.
+   - Tester :arcade33, rouletabosse, Bumbay, RayDu, emax31, fotograf59, platinumsteel, gchen,  remziye,  jiemax, McGee, Loloflat6, Tibbie, chris1111
 
 
 Move Create Install Media to Desktop
