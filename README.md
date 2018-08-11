@@ -1,6 +1,7 @@
 ## Create Install Media
 (## Support macOS Mojave ##)
-Update Clover EFI Bootloader revision v2.4k r4642
+
+Update 11 August 2018 Clover EFI Bootloader revision v2.4k r4642
 
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/110.png)
  
