@@ -19,7 +19,7 @@ Working Inside OS X Mavericks to macOS Mojave.
 
    - Disable the security SIP and Gatekeeper on your Mac
    - Blank USB key 8 gig for Install macOS
-   - Install macOS High Sierra.app (From Mac App Store)
+   - Install macOS Mojave.app (From Mac App Store)
  
 * Credit: 
    - Apple 
@@ -29,6 +29,10 @@ Working Inside OS X Mavericks to macOS Mojave.
 
 Move Create Install Media to Desktop
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captur10.png)
+
+Create Install Media
+![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/116.png)
+
 
 Follow every steps in the Video
                ⬇︎
