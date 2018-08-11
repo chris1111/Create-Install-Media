@@ -31,6 +31,7 @@ Move Create Install Media to Desktop
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captur10.png)
 
 Create Install Media
+
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/116.png)
 
 
