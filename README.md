@@ -1,11 +1,12 @@
 ## Create Install Media
 (## Support macOS Mojave ##)
+Update Clover EFI Bootloader revision v2.4k r4642
 
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/110.png)
  
 ## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Mojave 10.14.
 
-Containing also Clover EFI Bootloader revision v2.4k r4543
+Containing also Clover EFI Bootloader revision v2.4k r4642
 
 PS: (Working for UEFI and Legacy configurations)
 Working Inside OS X Mavericks to macOS Mojave.
