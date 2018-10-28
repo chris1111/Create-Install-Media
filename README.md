@@ -30,7 +30,7 @@ Working Inside OS X Mavericks to macOS Mojave.
 Move Create Install Media to Desktop
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captur10.png)
 
-From the update 28 Oct 2018 in the release, I removing --applicationpath for 10.13 and 10.14 in the Create Install Media tools. This is not showing in the video I add an option to separate (10.9 to 10.12) and (10.13 to 10.14)
+- From the update 28 Oct 2018 in the release, I removing --applicationpath for 10.13 and 10.14 in the Create Install Media tools. This is not showing in the video I add an option to separate (10.9 to 10.12) and (10.13 to 10.14)
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu284.png)
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu285.png)
 
