@@ -1,4 +1,7 @@
 ## Create Install Media
+- This is to test macOS
+- Buy a mac after testing macOS
+
 (## Support macOS Mojave ##)
 
 Update 24 Nov 2018 Clover EFI Bootloader revision v2.4k r4774
