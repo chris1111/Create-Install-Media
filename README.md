@@ -58,4 +58,10 @@ Clover ESP: thats working for  EFI and Legacy config
 
 [Download ➤ Create-Install-Media.dmg.zip](https://github.com/chris1111/Create-Install-Media/releases/tag/V1)
 
+* Post install
+- After installing macOS on SSD, run Clover in the application for later installation. This is to make the disk bootable without USB
+
+- Right Click / Show Package Contents / Resources
+![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu408.png)
+
 
