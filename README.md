@@ -4,9 +4,20 @@
 
 (## Support macOS Mojave ##)
 
-## Update:
+#### Latest Update
 - Update 26 Dec 2018 Add Option (Clover Installer)
-- Update 24 Nov 2018 Clover EFI Bootloader revision v2.4k r4774 New Video
+        
+#### Update
+<details> 
+  <summary>View Update</summary>
+
+- Update 24 Nov 2018 Clover EFI Bootloader revision v2.4k r4774
+
+- update 28 Oct 2018 in the release, I removing --applicationpath for 10.13 and 10.14 I add an option to separate (10.9 to 10.12) and (10.13 to 10.14) 
+
+- Update 11 august 2018 Clover r4642
+
+</details>
 
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/110.png)
  
