@@ -4,8 +4,9 @@
 
 (## Support macOS Mojave ##)
 
-Update 24 Nov 2018 Clover EFI Bootloader revision v2.4k r4774
-- New Video
+## Update:
+- Update 26 Dec 2018 Add Option (Clover Installer)
+- Update 24 Nov 2018 Clover EFI Bootloader revision v2.4k r4774 New Video
 
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/110.png)
  
@@ -34,6 +35,7 @@ Working Inside OS X Mavericks to macOS Mojave.
 Move Create Install Media to Desktop
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captur10.png)
 
+![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu412.png)
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu284.png)
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu285.png)
 
@@ -59,9 +61,9 @@ Clover ESP: thats working for  EFI and Legacy config
 [Download ➤ Create-Install-Media.dmg.zip](https://github.com/chris1111/Create-Install-Media/releases/tag/V1)
 
 * Post install
-- After installing macOS on SSD, run Clover in the application for post installation. This is to make the disk bootable without USB
+- After installing macOS on SSD, open the CreateInstall Media tools then select Clover Installer. This is to make the disk bootable without USB
 
-- Right Click / Show Package Contents / Resources
-![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu408.png)
+- Clover Installer
+![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/captu411.png)
 
 
