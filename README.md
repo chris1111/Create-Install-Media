@@ -5,11 +5,13 @@
 (## Support macOS Mojave ##)
 
 #### Latest Update
-- Update 26 Dec 2018 Add Option (Clover Installer)
+- Update 01 Mars 2019 (Clover r4893)
         
 #### Update
 <details> 
   <summary>View Update</summary>
+        
+- Update 26 Dec 2018 Add Option (Clover Installer)
 
 - Update 24 Nov 2018 Clover EFI Bootloader revision v2.4k r4774
 
