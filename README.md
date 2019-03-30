@@ -17,7 +17,7 @@
 
 - update 28 Oct 2018 in the release, I removing --applicationpath for 10.13 and 10.14 I add an option to separate (10.9 to 10.12) and (10.13 to 10.14) 
 
-- Update 11 august 2018 Clover r4642
+- Update 30 Mar 2019 (Clover r4910)
 
 </details>
 
