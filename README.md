@@ -5,7 +5,7 @@
 (## Support macOS Mojave ##)
 
 #### Latest Update
-- Update 30 Mar 2019 (Clover r4914)
+- Update 14 April 2019 (Clover r4919)
         
 #### Update
 <details> 
