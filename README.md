@@ -35,7 +35,7 @@
 
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/110.png)
  
-## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Mojave 10.14.
+## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Catalina 10.15.
 
 Containing also Clover EFI Bootloader revision v2.4k r4774
 
