@@ -2,10 +2,10 @@
 - This is to test macOS
 - Buy a mac after testing macOS
 
-(## Support macOS Mojave ##)
+(## Support macOS Catalina ##)
 
 #### Latest Update
--  Update 24 May 2019 (Clover r4934)
+-  Update 10 June 2019 (Clover r4963) support macOS Catalina
         
 #### Update
 <details> 
