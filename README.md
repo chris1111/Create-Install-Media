@@ -5,7 +5,7 @@
 (## Support macOS Catalina ##)
 
 #### Latest Update
--  Update 10 June 2019 (Clover r4963) support macOS Catalina
+-  Update 11 June 2019 (Clover r4964) 
         
 #### Update
 <details> 
