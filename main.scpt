@@ -5,7 +5,7 @@
 set theAction to button returned of (display dialog "
 Welcome Create Install Media
 You can create a bootable USB key 
-from OS X 10.9 to macOS 10.14
+from OS X 10.9 to macOS 10.15
 		
 Format your USB Drive with Disk Utility 
 in the format Mac OS Extended (Journaled) 
@@ -57,13 +57,13 @@ Then press the OK button" OK button name "OK" with multiple selections allowed
 	--If Continue	
 	set theAction to button returned of (display dialog "
 
-Choose the location of your Install macOS.app" with icon note buttons {"Quit", "10.9 to 10.12", "10.13 to 10.14"} cancel button "Quit" default button {"10.13 to 10.14"})
-	if theAction = "10.13 to 10.14" then
-		--If 10.13 to 10.14
+Choose the location of your Install macOS.app" with icon note buttons {"Quit", "10.9 to 10.12", "10.13 to 10.15"} cancel button "Quit" default button {"10.13 to 10.15"})
+	if theAction = "10.13 to 10.15" then
+		--If 10.13 to 10.15
 		display dialog "
-	Your choice is 10.13 to 10.14 
+	Your choice is 10.13 to 10.15 
 	Choose your Install OS X.app 
-	From macOS High Sierra to macOS Mojave" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"}
+	From macOS High Sierra to macOS Catalina" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"}
 		
 		set InstallOSX to choose file of type {"XLSX", "APPL"} default location (path to applications folder) with prompt "Choose your Install macOS.app"
 		set OSXInstaller to POSIX path of InstallOSX
