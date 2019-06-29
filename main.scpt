@@ -1,29 +1,30 @@
 # Applescript create by chris1111
 # Applescript Create Install Media any OS X
-# (c) Copyright 2018 chris1111 
+# Applescript adjust for Catalina 10.15
+# (c) Copyright 2018, 2019 chris1111 
 
 set theAction to button returned of (display dialog "
 Welcome Create Install Media
 You can create a bootable USB key 
 from OS X 10.9 to macOS 10.15
-		
-Format your USB Drive with Disk Utility 
-in the format Mac OS Extended (Journaled) 
-GUID Partition Map
-
-*****************************
-You must quit Disk Utility to continue 
-installation !" with icon note buttons {"Quit", "Create Install Media", "Clover Installer"} cancel button "Quit" default button {"Create Install Media"})
+" with icon note buttons {"Quit", "Clover Installer ", "Create Install Media"} cancel button "Quit" default button {"Create Install Media"})
+# Delete my temporary folder if exist
+do shell script " rm -rf /$HOME/Library/Install_-macOS/"
 set source to path to me as string
 set source to POSIX path of source & "Contents/Resources/Installer.pkg"
 set source to quoted form of source
 if theAction = "Clover Installer" then do shell script "open " & source & "/"
 set source to path to me as string
-
---If Create Install Media
+--If Création USB
 if theAction = "Create Install Media" then
-	
-	tell application "/Applications/Utilities/Disk Utility.app"
+	display dialog "Format your USB Drive with Disk Utility 
+in the format Mac OS Extended (Journaled) 
+GUID Partition Map
+
+*****************************
+You must quit Disk Utility to continue 
+installation !" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"}
+	tell application "Disk Utility"
 		activate
 	end tell
 	
@@ -60,14 +61,26 @@ Then press the OK button" OK button name "OK" with multiple selections allowed
 Choose the location of your Install macOS.app" with icon note buttons {"Quit", "10.9 to 10.12", "10.13 to 10.15"} cancel button "Quit" default button {"10.13 to 10.15"})
 	if theAction = "10.13 to 10.15" then
 		--If 10.13 to 10.15
-		display dialog "
+		set theAction to button returned of (display dialog "
 	Your choice is 10.13 to 10.15 
 	Choose your Install OS X.app 
-	From macOS High Sierra to macOS Catalina" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"}
+	From macOS High Sierra to macOS Catalina" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"})
+		set source1 to path to me as string
+		set source1 to POSIX path of source1 & "Contents/Resources/Choose.app"
+		set source1 to quoted form of source1
+		if theAction = "Continue" then do shell script "mkdir -p /$HOME/Library/" & quoted form of "Install_-macOS"
+		if theAction = "Continue" then do shell script "open " & source1 & "/"
+		set source1 to path to me as string
 		
-		set InstallOSX to choose file of type {"XLSX", "APPL"} default location (path to applications folder) with prompt "Choose your Install macOS.app"
-		set OSXInstaller to POSIX path of InstallOSX
+		tell application "Choose"
+			activate
+		end tell
 		
+		repeat
+			if application "Choose" is not running then exit repeat
+			
+		end repeat
+		say "Processing Install mac OS!"
 		delay 2
 		
 		set progress description to "Create Install Media
@@ -101,35 +114,51 @@ Installation time 15 to 20 min on a standard USB key
 		
 		set progress additional description to "Installing macOS  wait . . . ."
 		delay 1
+		tell application "Create Install Media"
+			activate
+		end tell
 		--display dialog cmd
-		set cmd to "sudo \"" & OSXInstaller & "Contents/Resources/createinstallmedia\" --volume /Volumes/Install-Media --nointeraction "
-		do shell script cmd with administrator privileges
+		do shell script "/$HOME/Library/Install_-macOS/Install*.app/Contents/Resources/createinstallmedia --volume /Volumes/Install-Media --nointeraction" with administrator privileges
 		set progress completed steps to 6
 		
 		set progress additional description to "Install in Progress 90%"
 		delay 2
+		# Delete my temporary folder
+		do shell script " rm -rf /$HOME/Library/Install_-macOS/"
 		set progress completed steps to 7
 		set progress additional description to "
 Create Install Media Completed 100% ➤ opening the Clover Installer!
 Create Install Media Completed !"
-		delay 5
-		set theAction to button returned of (display dialog "	
-Open Clover_v2.4k EFI" with icon alias ((path to me) & "Contents:Resources:clover.icns" as string) buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"})
-		if theAction = "Continue" then set theFile to ((path to me) as string) & "Contents:Resources:Installer.pkg"
+		delay 3
+		set theFile to ((path to me) as string) & "Contents:Resources:Installer.pkg"
 		tell application "Finder" to open theFile
+		
 		
 	else if theAction = "10.9 to 10.12" then
 		
 		--If 10.9 to 10.12
-		display dialog "
+		set theAction to button returned of (display dialog "
 10.9 to 10.12
 Choose the location of your Install macOS.app
-From OS X Mavericks to macOS Sierra" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"}
+From OS X Mavericks to macOS Sierra" with icon note buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"})
+		set source1 to path to me as string
+		set source1 to POSIX path of source1 & "Contents/Resources/Choose.app"
+		set source1 to quoted form of source1
+		if theAction = "Continue" then do shell script "mkdir -p /$HOME/Library/" & quoted form of "Install_-macOS"
+		if theAction = "Continue" then do shell script "open " & source1 & "/"
+		set source1 to path to me as string
 		
-		set InstallOSX to choose file of type {"XLSX", "APPL"} default location (path to applications folder) with prompt "Choose your Install macOS.app"
-		set OSXInstaller to POSIX path of InstallOSX
+		tell application "Choose"
+			activate
+		end tell
 		
+		repeat
+			if application "Choose" is not running then exit repeat
+			
+		end repeat
+		say "Processing Install mac OS!"
 		delay 2
+		
 		
 		set progress description to "Create Install Media
 ======================================
@@ -162,21 +191,23 @@ Installation time 15 to 20 min on a standard USB key
 		
 		set progress additional description to "Installing macOS  wait . . . ."
 		delay 1
+		tell application "Create Install Media"
+			activate
+		end tell
 		--display dialog cmd
-		set cmd to "sudo \"" & OSXInstaller & "Contents/Resources/createinstallmedia\" --volume /Volumes/Install-Media --applicationpath \"" & OSXInstaller & "\" --nointeraction "
-		do shell script cmd with administrator privileges
+		do shell script "/$HOME/Library/Install_-macOS/Install*.app/Contents/Resources/createinstallmedia --volume /Volumes/Install-Media --applicationpath /$HOME/Library/Install_-macOS/Install*.app --nointeraction" with administrator privileges
 		set progress completed steps to 6
 		
 		set progress additional description to "Install in Progress 90%"
 		delay 2
+		# Delete my temporary folder
+		do shell script " rm -rf /$HOME/Library/Install_-macOS/"
 		set progress completed steps to 7
 		set progress additional description to "
 Create Install Media Completed 100% ➤ opening the Clover Installer!
 Create Install Media Completed !"
-		delay 5
-		set theAction to button returned of (display dialog "	
-Open Clover_v2.4k EFI" with icon alias ((path to me) & "Contents:Resources:clover.icns" as string) buttons {"Quit", "Continue"} cancel button "Quit" default button {"Continue"})
-		if theAction = "Continue" then set theFile to ((path to me) as string) & "Contents:Resources:Installer.pkg"
+		delay 3
+		set theFile to ((path to me) as string) & "Contents:Resources:Installer.pkg"
 		tell application "Finder" to open theFile
 	end if
 end if
