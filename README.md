@@ -37,7 +37,7 @@
  
 ## This app is for Installing macOS (Working and Testing OS X 10.9 to macOS Catalina 10.15.
 
-Containing also Clover EFI Bootloader revision v2.4k r4774
+Containing also Clover EFI Bootloader
 
 PS: (Working for UEFI and Legacy configurations)
 Working Inside OS X Mavericks to macOS Mojave.
