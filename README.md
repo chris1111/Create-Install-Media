@@ -5,7 +5,7 @@
 (## Support macOS Catalina ##)
 
 #### Latest Update
-- Update 29 June 2019 (Clover r4977) Support USB Creation on MacOS Catalina 10.15
+- Update 01 August 2019 update config.plist
         
 #### Update
 <details> 
