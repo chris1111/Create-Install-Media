@@ -5,13 +5,15 @@
 (## Support macOS Catalina ##)
 
 #### Latest Update
-- Update 01 August 2019 update config.plist
+- Update 27 Oct 2019 update Clover r5097
+- No need of Choose.app in the bundle, apple fix the problem for AppleScript.
         
 #### Update
 <details> 
   <summary>View Update</summary>
         
-        
+- Update 01 August 2019 update config.plist
+
 - Update 22 May 2019 (Clover r4933)        
                
 - Update 21 May 2019 (Clover r4930)
