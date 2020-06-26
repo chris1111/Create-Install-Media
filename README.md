@@ -53,7 +53,7 @@ Working Inside OS X Mavericks to macOS Mojave.
 * What you need
 
    - Disable the security SIP and Gatekeeper on your Mac
-   - Blank USB key 8 gig for Install macOS
+   - Blank USB key 8 gig for Install macOS ➢ Catalina 10.15.5 need's 16 Gig USB
    - Install macOS Mojave.app (From Mac App Store)
  
 * Credit: 
